@@ -9,3 +9,4 @@ def is_leap_year(year):
 if __name__ == "__main__":
     year = int(sys.argv[1])
     print(f"{year} is {is_leap_year(year)}")
+    print(sys.argv[0])
